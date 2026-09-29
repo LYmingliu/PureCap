@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PureCap 纯净录屏 — 隐私政策</title>
+<style>
+  body { font-family: "Microsoft YaHei", "Segoe UI", sans-serif; max-width: 860px;
+         margin: 0 auto; padding: 24px 18px; color: #24292f; line-height: 1.75; }
+  h1 { font-size: 1.5em; border-bottom: 2px solid #d0d7de; padding-bottom: 8px; }
+  h2 { font-size: 1.15em; margin-top: 1.6em; }
+  .meta { color: #57606a; font-size: 0.92em; }
+  ul { padding-left: 1.4em; }
+  .card { background: #f6f8fa; border: 1px solid #d0d7de; border-radius: 8px;
+          padding: 12px 16px; margin: 14px 0; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0d1117; color: #e6edf3; }
+    h1 { border-color: #30363d; }
+    .card { background: #161b22; border-color: #30363d; }
+    .meta { color: #8b949e; }
+  }
+</style>
+</head>
+<body>
+<h1>PureCap 纯净录屏 — 隐私政策</h1>
+<p class="meta">更新日期：2026 年 9 月 29 日 ｜ 开发者：MingLiu（个人开发者）</p>
+
+<div class="card">
+  <b>一句话概括：PureCap 完全在您的电脑上本地运行，不上传、不收集您的任何数据，没有广告，也没有任何第三方组件。</b>
+</div>
+
+<h2>1. 我们收集哪些数据</h2>
+<ul>
+  <li><b>不收集。</b>PureCap 不收集、不存储、不传输任何个人数据、使用统计或遥测数据。</li>
+  <li>您录制的视频（画面与声音）只写入您自己电脑的"视频"文件夹，开发者无法访问。</li>
+</ul>
+
+<h2>2. 屏幕与麦克风</h2>
+<ul>
+  <li><b>屏幕画面：</b>仅在您明确选择录制目标（整个屏幕或某个应用窗口）并点击"开始录制"后，才通过 Windows 系统自带的屏幕捕获能力（Windows.Graphics.Capture）读取屏幕内容，且只用于写入您本地的视频文件。</li>
+  <li><b>系统声音：</b>仅当您勾选"录制系统声音"时，通过 Windows 音频接口（WASAPI）采集电脑正在播放的声音，写入本地视频文件。</li>
+  <li><b>麦克风：</b>仅当您勾选"录制麦克风"时采集麦克风声音，写入本地视频文件；未勾选时麦克风不会被启用。</li>
+  <li>录制内容不在任何服务器上暂存、分析或转发。</li>
+</ul>
+
+<h2>3. 网络访问</h2>
+<ul>
+  <li>PureCap 的录屏功能完全离线运行，不需要网络，程序内没有任何联网代码、统计 SDK 或广告组件。</li>
+  <li>仅 Microsoft Store 自身（下载、更新、授权）会按微软的隐私政策与系统通信，PureCap 不参与、不接触其中数据。</li>
+</ul>
+
+<h2>4. 第三方组件</h2>
+<p>无。PureCap 仅使用 Windows 操作系统自带组件（Windows.Graphics.Capture、Media Foundation、WASAPI、Direct3D 11），不包含任何第三方开源或闭源组件。</p>
+
+<h2>5. 儿童隐私</h2>
+<p>本软件不面向儿童，也不收集任何年龄数据。</p>
+
+<h2>6. 联系方式</h2>
+<p>如对本隐私政策有任何疑问，请联系：<b>wanggang.cpfcc@outlook.com</b></p>
+
+<h2>7. 政策变更</h2>
+<p>如本政策发生实质性变更，将在本页面更新并修改顶部日期。</p>
+
+<hr>
+<p class="meta">English summary: PureCap runs entirely on your device. It does not collect, store, or transmit any personal data or telemetry. Screen, system audio, and microphone are captured only when you explicitly start a recording, and are written only to local video files. No third-party components, no ads. Contact: wanggang.cpfcc@outlook.com</p>
+</body>
+</html>
